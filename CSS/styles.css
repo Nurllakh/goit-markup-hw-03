@@ -32,16 +32,20 @@ ul {
 img { 
     padding: 0;
     margin: 0;
+    display: block;
 }
 .business {
     padding: 0;
     margin: 0;
 }
+.disp {
+    display: none;
+}
 .section-details {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -58,10 +62,10 @@ img {
     margin-right: 30px;
 }
 .section-job {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -70,16 +74,16 @@ img {
 .container-head {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
 }
 .section-team {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -88,7 +92,7 @@ img {
     margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -96,7 +100,7 @@ img {
 .title-footer {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -104,7 +108,7 @@ img {
 .button-title {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -112,7 +116,7 @@ img {
 .section-grid {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     outline: 2px solid tomato;
@@ -182,6 +186,7 @@ img {
 .section-effective {
     background: #2F303A;
 }
+
 .service {
     font-family: Roboto;
     font-weight: 900;
@@ -223,8 +228,8 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-top: 10px;
     margin-bottom: 0;
+    
 }
 .footer-title {
     background: #2F303A;
@@ -279,6 +284,8 @@ img {
     text-transform: uppercase;
 }
 .team {
+    margin-top: 30px;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -287,6 +294,8 @@ img {
     color: var(--heading-text-color);
 }
 .position {
+    margin-top: 10px;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -300,6 +309,8 @@ img {
     background: var(--background-text-color);
 }
 .section-portfolio {
+    margin-top: 20px;
+    margin-bottom: 0;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -307,6 +318,8 @@ img {
     color: var(--heading-text-color);
 }
 .name {
+    margin-top: 4px;
+    margin-bottom: 0;
     line-height: 30px;
     font-size: 16px;
     color: var(--title-text-color);
@@ -355,6 +368,8 @@ img {
     color: rgba(255, 255, 255, 0.6);
 }
 .developed {
+    margin: 0;
+    padding: 0;
     font-size: 12px;
     line-height: 2;
     text-align: center;
@@ -365,16 +380,16 @@ img {
 .logo-main {
     margin-right: 85px;
 }
-.section-effective {
-    margin-bottom: 94px;
+.bac {
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
 .test .title {
-    margin: 0;
+    margin: 10px;
    
 }
 .advantages-img {
@@ -400,18 +415,21 @@ img {
     margin: 0;
     padding: 0;
 }
-.img-people:not(:last-child) {
-    padding-right: 30px;
+.team-list .img-people:not(:last-child) {
+    margin-right: 30px;
 }
 .section-list {
     display: flex;
     margin: 0;
     padding: 0;
 }
+.section-list .custo:not(:last-child) {
+    margin-right: 30px;
+}
 .customer-img {
     display: block;
     text-align: center;
-    padding-right: 25px;
+    
 }
 .customer-img:not(:last-child) {
     padding-right: 30px;
@@ -434,24 +452,23 @@ img {
 }
 .soc-li {
     margin-right: 10px;
+    text-align:  center;
 }
 .title-footer {
     display: flex;
-    margin-top: 57px;
     padding-top: 45px;
     
 }
 .footer-to {
-    padding-left: 69px;
-    padding-right: 60px;
+    margin-left: 69px;
+    margin-right: 94px;
     align-items: center;
     justify-content: space-around;
 }
 .list-button {
-    margin-right: 30px;
-    width: 50%;
-    text-align: center;
+    margin-right: 8px;
 }
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -472,9 +489,29 @@ img {
     padding-right: 15px;
     padding-left: 15px;
 }
-.feature-etem p {
-    margin-bottom: 32px;
+.feature-etem .description  {
+    margin: 0;
+    
 }
 .section-team .section-title {
     padding-top: 94px;
+}
+.soc-team {
+    display: flex;
+    justify-content: center;
+}
+.team-soc {
+    text-align:  center;
+    margin-top: 16px;
+    padding-bottom: 24px;
+
+}
+.soc-team .team-soc:not(:last-child) {
+    margin-right: 10px;
+}
+.mar {
+    margin-bottom: 94px;
+}
+.button-title {
+    padding-bottom: 34px;
 }
