@@ -17,13 +17,13 @@ body {
 }
   
 a {
-    text-decoration: none;
+    text-decoration: none;  
 }
 li {
     list-style-type: none;
 }
 ul {
-    padding-left: 0;
+    padding: 0;
 }
 .list {
     padding: 0;
@@ -38,6 +38,7 @@ img {
     margin: 0;
 }
 .section-details {
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
@@ -51,9 +52,13 @@ img {
     margin-right: auto;
     margin: 0;
     padding: 0;
-   /* justify-content: center:*/
+   justify-content: center:
+}
+.details-main .test:not(:last-child) {
+    margin-right: 30px;
 }
 .section-job {
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
@@ -71,6 +76,7 @@ img {
     outline: 2px solid tomato;
 }
 .section-team {
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
@@ -79,6 +85,7 @@ img {
     outline: 2px solid tomato;
 }
 .section-customer {
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
@@ -189,12 +196,15 @@ img {
     background: var(--background-text-color);
 }
 .section-title {
+    margin-bottom: 50px;
+    margin-top: 0;
     color: var(--heading-text-color);
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    
 }
 .job {
     margin: 0;
@@ -213,6 +223,8 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 .footer-title {
     background: #2F303A;
@@ -246,12 +258,17 @@ img {
     background: var(--background-text-color);
 }
 .business {
+    width: 695px;
+    height: 120px;
     color: var(--white-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .title {
     color: var(--heading-text-color);
@@ -348,30 +365,35 @@ img {
 .logo-main {
     margin-right: 85px;
 }
-.section-effective .list {
-    width: 1200px;
+.section-effective {
+    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.test {
-    padding: 20px;
+.test .title {
+    margin: 0;
+   
 }
 .advantages-img {
     display: block;
     margin-bottom: 30px;
-    padding: 25px 50px 25px 50px;
+
     border-radius: 4px;
     text-align: center;
-    background-color: #F5F4FA;;
+    background-color: #F5F4FA;
 }
 .job-title {
     display: flex;
     padding: 0;
     margin: 0;
+
 }
-.job-list:not(:last-child){
-    padding-right: 30px;
-    margin: 0;
+.job-title .job-list:not(:last-child) {
+    margin-right: 30px;
+    
 }
 .team-title {
     display: flex;
@@ -452,4 +474,7 @@ img {
 }
 .feature-etem p {
     margin-bottom: 32px;
+}
+.section-team .section-title {
+    padding-top: 94px;
 }
