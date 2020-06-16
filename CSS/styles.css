@@ -183,6 +183,9 @@ img {
     background: #2F303A;
 }
 .service {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Roboto;
     font-weight: 900;
     font-size: 16px;
@@ -194,6 +197,7 @@ img {
     display: flex;
     color: var(--white-text-color);
     background: var(--background-text-color);
+    
 }
 .section-title {
     margin-bottom: 50px;
@@ -255,8 +259,6 @@ img {
     background: var(--background-text-color);
 }
 .business {
-    width: 695px;
-    height: 120px;
     color: var(--white-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -368,6 +370,12 @@ img {
 }
 .logo-main {
     margin-right: 85px;
+}
+.bac {
+    
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .bac {
     margin-left: auto;
