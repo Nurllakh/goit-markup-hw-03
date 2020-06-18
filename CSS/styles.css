@@ -126,9 +126,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
-.ddir {
-    background-color: #F5F4FA;
-}
+
 .logo {
     color: var(--background-text-color);
     font-family: Raleway;
