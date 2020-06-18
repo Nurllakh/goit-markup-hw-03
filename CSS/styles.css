@@ -16,7 +16,9 @@ body {
     font-weight: 500;
     letter-spacing: 0.03em;
 }
-
+address {
+    margin-right: 69px;
+}
 
 a {
     text-decoration: none;  
@@ -31,13 +33,16 @@ ul {
     padding: 0;
     margin: 0;
 }
+.description {
+    display: none;
+}
 img { 
     padding: 0;
     margin: 0;
     display: block;
 }
 .business {
-    padding: 0;
+    padding-top: 199px;
     margin: 0;
 }
 .disp {
@@ -59,6 +64,10 @@ img {
     margin: 0;
     padding: 0;
    justify-content: center:
+}
+.test {
+    width: 270px;
+    height: 251px;
 }
 .details-main .test:not(:last-child) {
     margin-right: 30px;
@@ -89,7 +98,7 @@ img {
 }
 .section-customer {
     padding-top: 94px;
-    margin-bottom: 94px;
+   padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -182,7 +191,7 @@ img {
 .section-effective {
     background: #2F303A;
 }
-.service {
+.service {  
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +246,9 @@ img {
 .primary {
     color: var(--white-text-color);
     background: var(--background-text-color);
+}
+.social-networks {
+    margin-left: 10px;
 }
 .social-networks {
     color: var(--white-text-color);
@@ -380,7 +392,8 @@ img {
 .bac {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1600px;
+    height: 600px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -408,9 +421,17 @@ img {
     margin: 0;
     padding: 0;
 }
-.team-list .img-people:not(:last-child) {
-    margin-right: 30px;
+.team-title .team-list:not(:last-child) {
+    margin-right: 30px; 
 }
+.soc-team {
+    padding-bottom: 24px;
+}
+.team-list {
+    width: 270px;
+    height: 422px;  
+}
+
 .section-list {
     display: flex;
     margin: 0;
@@ -451,7 +472,8 @@ img {
     padding-top: 45px;
 }
 .footer-to {
-    margin-left: 69px;
+    width: 206px;
+    height: 80px;
     margin-right: 94px;
     align-items: center;
     justify-content: space-around;
@@ -493,7 +515,6 @@ img {
 .team-soc {
     text-align:  center;
     margin-top: 16px;
-    padding-bottom: 24px;
 }
 .soc-team .team-soc:not(:last-child) {
     margin-right: 10px;
