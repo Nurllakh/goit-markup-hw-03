@@ -50,6 +50,7 @@ img {
 }
 .section-details {
     padding-top: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -73,7 +74,7 @@ img {
     margin-right: 30px;
 }
 .section-job {
-    padding-top: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -88,17 +89,19 @@ img {
     padding-right: 15px;
 
 }
-.section-team {
-    padding-top: 94px;
+.tem {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
 }
+.section-team {
+    background-color: #F5F4FA;
+}
 .section-customer {
     padding-top: 94px;
-   padding-bottom: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -187,7 +190,7 @@ img {
     color: var(--background-text-color);
 }
 .section-effective {
-    background: #2F303A;
+    background: rgba(47, 48, 58, 0.8);
 }
 .service {  
     margin-top: 45px;
@@ -393,8 +396,7 @@ img {
     width: 1600px;
     height: 600px;
     padding-left: 15px;
-    padding-right: 15px;
-    
+    padding-right: 15px;  
 }
 .test .title {
     margin: 0; 
@@ -468,6 +470,7 @@ img {
 .title-footer {
     display: flex;
     padding-top: 45px;
+    align-items: baseline;
 }
 .footer-to {
     width: 206px;
