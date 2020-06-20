@@ -412,9 +412,6 @@ img {
     margin-right: 30px;  
 }
 .team-title {
-    background: #FFFFFF;
-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-border-radius: 0px 0px 4px 4px;
     display: flex;
     margin: 0;
     padding: 0;
@@ -426,6 +423,9 @@ border-radius: 0px 0px 4px 4px;
     margin-top: 16px;
 }
 .team-list {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 422px;  
 }
@@ -515,6 +515,7 @@ border-radius: 0px 0px 4px 4px;
 
 }
 .team-soc {
+    
     text-align:  center;
     width: 44px;
     height: 44px;
