@@ -42,7 +42,6 @@ img {
     display: block;
 }
 .business {
-    padding-top: 199px;
     margin: 0;
 }
 .disp {
@@ -90,6 +89,7 @@ img {
 
 }
 .tem {
+    padding-top: 94px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -98,6 +98,7 @@ img {
 }
 .section-team {
     background-color: #F5F4FA;
+    padding-bottom: 94px;
 }
 .section-customer {
     padding-top: 94px;
@@ -248,8 +249,8 @@ img {
     color: var(--white-text-color);
     background: var(--background-text-color);
 }
-.social-networks {
-    margin-left: 10px;
+.soc .soc-li:not(:last-child) {
+ margin-right: 10px;
 }
 .social-networks {
     color: var(--white-text-color);
@@ -372,20 +373,12 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.developed {
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    line-height: 2;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.4);
-}
 .logo-main {
     margin-right: 85px;
 }
 .bac {
-    
+    justify-content: center;
+    padding-top: 199px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -403,6 +396,8 @@ img {
     margin-top: 30px;
 }
 .advantages-img {
+    width: 270px;
+    height: 120px;
     display: block;
     border-radius: 4px;
     text-align: center;
@@ -417,6 +412,9 @@ img {
     margin-right: 30px;  
 }
 .team-title {
+    background: #FFFFFF;
+box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 0px 0px 4px 4px;
     display: flex;
     margin: 0;
     padding: 0;
@@ -425,7 +423,7 @@ img {
     margin-right: 30px; 
 }
 .soc-team {
-    padding-bottom: 24px;
+    margin-top: 16px;
 }
 .team-list {
     width: 270px;
@@ -462,10 +460,13 @@ img {
 }    
 .soc {
     display: flex;
+    margin-top: 16px;
 }
 .soc-li {
-    margin-right: 10px;
+    
     text-align:  center;
+    width: 44px;
+    height: 44px;
 }
 .title-footer {
     display: flex;
@@ -479,14 +480,14 @@ img {
     align-items: center;
     justify-content: space-around;
 }
-.list-button {
-    padding: 6px; 
+.site-nove .list-button:not(:last-child)  {
     margin-right: 8px;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
 }
 .feature-etem {
     width: 370px;
@@ -502,26 +503,27 @@ img {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 94px;
 }
 .feature-etem .description  {
     margin: 0;
 }
-.section-team .section-title {
-    padding-top: 94px;
-}
+
 .soc-team {
     display: flex;
     justify-content: center;
+
 }
 .team-soc {
     text-align:  center;
-    margin-top: 16px;
+    width: 44px;
+    height: 44px;
 }
 .soc-team .team-soc:not(:last-child) {
     margin-right: 10px;
 }
 .mar {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .button-title {
     padding-right: 0;
