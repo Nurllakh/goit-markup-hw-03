@@ -109,6 +109,11 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .title-footer {
     margin-left: auto;
     margin-right: auto;
@@ -197,6 +202,7 @@ img {
     color: var(--background-text-color);
 }
 .section-effective {
+    padding: 200px 0;
     background: rgba(47, 48, 58, 0.8);
 }
 .service {  
@@ -383,21 +389,6 @@ img {
 }
 .logo-main {
     margin-right: 85px;
-}
-.bac {
-    justify-content: center;
-    padding-top: 199px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-.bac {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1600px;
-    height: 600px;
-    padding-left: 15px;
-    padding-right: 15px;  
 }
 .test .title {
     margin: 0; 
